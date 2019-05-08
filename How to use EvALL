@@ -1,0 +1,21 @@
+Moreover, we have included our goldstandard in EvALL (www.evall.uned.es), a new evaluation web service that are lunching in the NLP&IR research group of UNED (http://nlp.uned.es). They have recently release the first alpha prototype, that include evaluation measures for Classification and Ranking tasks, and they will be provide clustering soon. You can learn more in the next video (https://youtu.be/221cYlQpNb4). EvALL also allows researchers to publish their system outputs to an already stored goldstandard, (benchmark in EvALL), in the EvALL repository. Including your outputs in EvALL will allow future researchers working with  this  dataset to see your approaches, compare with them, explore your papers, and cite them, between others. 
+http://www.evall.uned.es/evaluate_using_benchmark
+
+In order to submit your system outputs you only need to:
+
+1.- Prepare the system output. EvALL uses a tsv file format with three column. The first one is the TEST CASE (in this dataset is “DDI2013”), the second is the ID of the elements and the third one is the class assigned to the ID:
+
+"DDI2013"    "DDI-DrugBank.d712.s1.p0"    "2"
+
+2.- Register and login. In the top right corner of the screen you can see the “Sign in” button. Click it and follow the steps.
+
+3.- In the home menu, click on the option “Publish a new system output”. 
+
+4.- Select the DDI benchmark and follow the steps. With just 3 clicks you can upload the output.
+
+5.- Fill in the form with the information about your output, the authors, the link to the pdf, the bibtext, etc. 
+
+6.- Save and go the the “Browse repository” option to see if everything is allrigth.
+
+Remember that this is an alphan version, so if you have any problem do not hesitate to contact with the EvALL Team: Jorge Carrillo-de-Albornoz (jcalbornoz@lsi.uned.es) or Enrique Amigó (enrique@lsi.uned.es)
+
